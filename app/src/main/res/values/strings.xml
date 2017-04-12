@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Zeplin App</string>
+    <string name="splash_login">Login</string>
+    <string name="splash_signup">Signup</string>
+    <string name="index_forgot_pass">Forgot Password?</string>
+    <string name="index_ask_signup">Dont have an account? Sign up</string>
+    <string name="forgot_password_title">Forgot Password</string>
+    <string name="forgot_pass_header">Please enter your mobile number</string>
+    <string name="forgot_pass_subheader">to reset your password</string>
+    <string name="forgot_pass_btn">Continue</string>
+    <string name="signup_fname">Fname</string>
+    <string name="signup_lname">Lname</string>
+    <string name="signup_contact_number">Contact Number</string>
+    <string name="signup_contact_name">Contact Name</string>
+    <string name="singup_email">Email</string>
+    <string name="signup_password">Password</string>
+    <string name="singup_confirm_password">Confirm Password</string>
+    <string name="signup_checkbox_text">I accept <u><b>Terms of Service</b></u> and <u><b>Privacy Policy</b></u></string>
+    <string name="user_name"><b>Dave Smith</b></string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="text_support">Support Via Call/Email</string>
+    <string name="network_view">Network View</string>
+    <string name="payment">Payment</string>
+    <string name="job_history">Job History</string>
+    <string name="Emergency_contacts">Emergency Contacts</string>
+    <string name="Help">Help</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_slide_pane">SlidePane</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

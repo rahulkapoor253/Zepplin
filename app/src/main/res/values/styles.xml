@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="designView">
+        <item name="android:background">@drawable/background_2</item>
+    </style>
+
+    <style name="signupView">
+        <item name="android:layout_marginStart">@dimen/forgot_pass_et_margin</item>
+        <item name="android:layout_marginEnd">@dimen/forgot_pass_et_margin</item>
+        <item name="android:layout_marginTop">@dimen/forgot_pass_et_margin</item>
+
+    </style>
+
+    <style name="button_style">
+        <item name="android:layout_width">@dimen/splash_btn_width</item>
+        <item name="android:layout_height">@dimen/splash_btn_height</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@color/colorPrimary</item>
+
+    </style>
+
+    <style name="mainFrame">
+        <item name="android:drawablePadding">15dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
