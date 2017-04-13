@@ -3,6 +3,7 @@ package com.example.rahulkapoor.zeplinapp;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.v7.widget.AppCompatCheckBox;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,6 +20,11 @@ import java.util.ArrayList;
  */
 
 class WordAdapter extends ArrayAdapter<ListData>{
+
+    private TextView tvdata;
+    private AppCompatCheckBox mtogglebutton;
+
+
     /**
      * @param context         calls to super
      * @param pWords          calls to super
@@ -38,7 +44,9 @@ class WordAdapter extends ArrayAdapter<ListData>{
 
         ListData obj = getItem(position);
 
-        TextView tvdata = (TextView) listitemview.findViewById(R.id.tv_heading);
+
+
+        tvdata = (TextView) listitemview.findViewById(R.id.tv_heading);
         tvdata.setText(obj.getData());
 
         ImageView setimage = (ImageView) listitemview.findViewById(R.id.iv_placeholderimage);
@@ -49,6 +57,16 @@ class WordAdapter extends ArrayAdapter<ListData>{
             setimage.setVisibility(View.GONE);
 
         }
+
+        mtogglebutton = (AppCompatCheckBox) listitemview.findViewById(R.id.toggle_button);
+
+        if(position == 0)
+        {
+            mtogglebutton.setVisibility(View.VISIBLE);
+        }
+
+
+
 
         return listitemview;
 }

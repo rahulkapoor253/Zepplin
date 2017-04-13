@@ -28,6 +28,15 @@
         android:gravity="center_vertical"
         android:layout_height="match_parent" />
 
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/toggle_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:layout_gravity="end"
+        android:button="@drawable/coustom_check"
+        />
+
 </LinearLayout>
 
 

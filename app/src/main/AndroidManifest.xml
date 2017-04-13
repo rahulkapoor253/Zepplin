@@ -20,6 +20,8 @@
         <activity android:name=".ForgotPassword" />
         <activity android:name=".Signup" />
         <activity android:name=".SideMenu" />
+        <activity android:name=".OTP" />
+        <activity android:name=".ResetPassword"></activity>
     </application>
 
 </manifest>
